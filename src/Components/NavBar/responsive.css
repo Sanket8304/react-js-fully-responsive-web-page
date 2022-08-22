@@ -1,0 +1,204 @@
+@media only screen and (min-width: 300px) {
+    .responsive-navbar-main-container {
+        display: block;
+        padding-inline: 300px;
+        background-color: #f47327;
+      }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: block;
+        justify-content: space-between;
+      }
+} 
+
+@media only screen and (min-width: 300px) {
+    .responsive-navbar-main-container {
+        display: block;
+        padding-block-end: 10px;
+        padding-inline:240px;
+        background-color: #f47327;
+      }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: block;
+        justify-content: space-between;
+      }
+}
+
+@media only screen and (min-width: 500px) {
+    .responsive-navbar-main-container {
+        display: block;
+        padding-block-end: 10px;
+        padding-inline:200px;
+        background-color: #f47327;
+      }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: block;
+        justify-content: space-between;
+      }
+}
+
+@media only screen and (min-width: 600px) {
+    .responsive-navbar-main-container {
+        display: block;
+        padding-block-end: 10px;
+        padding-inline:280px;
+        background-color: #f47327;
+      }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: block;
+        justify-content: space-between;
+      }
+}
+
+@media only screen and (min-width: 768px) {
+    .responsive-navbar-main-container {
+      display: block;
+      padding-inline: 200px;
+      background-color: #f47327;
+    }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: flex;
+        justify-content: space-between;
+      }
+  } 
+
+  @media only screen and (min-width: 810px) {
+    .responsive-navbar-main-container {
+      display: block;
+      padding-inline: 200px;
+      background-color: #f47327;
+    }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: flex;
+        justify-content: space-between;
+      }
+  } 
+
+  @media only screen and (min-width: 900px) {
+    .responsive-navbar-main-container {
+      display: block;
+      padding-inline: 250px;
+      background-color: #f47327;
+    }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: flex;
+        justify-content: space-between;
+      }
+  } 
+
+  @media only screen and (min-width: 1024px) {
+    .responsive-navbar-main-container {
+      display: block;
+      padding-inline: 350px;
+      background-color: #f47327;
+    }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: flex;
+        justify-content: space-between;
+      }
+  } 
+  
+  @media only screen and (min-width: 1230px) {
+    .responsive-navbar-main-container {
+      display: block;
+      padding-inline: 400px;
+      background-color: #f47327;
+    }
+
+    .responsive-navbar-title-container {
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .responsive-navebar-manu-items {
+        display: flex;
+        justify-content: space-between;
+      }
+  } 
+
+@media only screen and (min-width: 1330px) {
+    .responsive-navbar-main-container {
+        display: block;
+        /* padding-inline: 50px; */
+        height: auto;
+        padding: 10px;
+        background-color: #f47327;
+      }
+  
+      .responsive-navbar-title-container {
+          border-radius: 3px;
+          display: flex;
+          align-items: center;
+      }
+  
+      .responsive-navebar-manu-items {
+          display: flex;
+          justify-content: space-between;
+        }
+  } 
+
+@media only screen and (min-width: 1920px) {
+
+    .responsive-navbar-main-container {
+        display: flex;
+        /* padding: 100px; */
+        width: 1170px;
+        padding-inline: 375px;
+      }
+  } 
