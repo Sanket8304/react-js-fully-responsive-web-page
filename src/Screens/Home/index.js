@@ -142,8 +142,8 @@ const Home = (props) => {
           />
 
           <div
-            className={`${
-              width > 1230 ? "text-container" : "responsive-text-container"
+            className={`${width > 1230 ? "" : "responsive-text-container"} ${
+              width > 1920 ? "text-container" : ""
             }`}
           >
             <div

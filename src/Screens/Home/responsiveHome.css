@@ -1,5 +1,5 @@
 @media only screen and (min-width: 300px) {
-.responsive-main-container {
+  .responsive-main-container {
     display: block;
     padding: 10px;
     padding-inline: 20px;
@@ -92,16 +92,20 @@
   .responsive-imag-10 {
     width: 180px;
     height: 366.16px;
+    margin-top: 10px;
   }
 
   .responsive-imag-8 {
     width: 180px;
     height: 366.16px;
+    margin-top: 10px;
   }
   
   .responsive-imag-6 {
     width: 180px;
     height: 366.16px;
+    margin-top: 10px;
+
   }
 }
 
@@ -371,7 +375,7 @@
   }
 } 
 
-  @media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 1124px) {
   .responsive-main-container {
     display: flex;
     padding-inline: 280px;
@@ -432,6 +436,10 @@
   .responsive-mobile-image {
     width: 265.67px;
     height: 512.27px;
+  }
+
+  .responsive-text-container {
+    margin-left: 0px;
   }
 } 
   
@@ -501,5 +509,9 @@
     width: 265.67px;
     height: 512.27px;
     padding-block: 85px;
+  }
+
+  .responsive-text-container {
+    margin-left: 0px;
   }
 }
