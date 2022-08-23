@@ -5,14 +5,14 @@ export const FooterWrapper = styled.div`
     padding: 10px;
     background-color: #f47327;
     height: 80px;
-    padding-inline: 375px;
+    padding-inline: 275px;
     display: flex;
     width: auto;
     justify-content: space-between;
     align-items: center;
   }
 
-  .navbar-title-container {
+  .footer-title-container {
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ export const FooterWrapper = styled.div`
     height: 41px;
   }
 
-  .navbar-title {
+  .footer-title {
     color: #ffff;
     font-weight: 700;
     font-size: 34px;
@@ -31,13 +31,13 @@ export const FooterWrapper = styled.div`
     font-family: "Roboto";
   }
 
-  .navebar-manu-items {
+  .footer-manu-items {
     display: flex;
     width: 373px;
     justify-content: space-between;
   }
 
-  .navebar-manu-item-text {
+  .footer-manu-item-text {
     color: #ffff;
     font-family: "Roboto";
   }

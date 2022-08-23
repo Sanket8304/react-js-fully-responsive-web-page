@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./responsive.css";
+import "./responsiveFooter.css";
 
 import { FooterWrapper } from "./FooterStyle";
 
@@ -11,30 +11,32 @@ const Footer = (props) => {
         className={`${
           props.showTopNavMenu
             ? "main-container"
-            : "responsive-navbar-main-container"
-        }`}>
+            : "responsive-footer-main-container"
+        }`}
+      >
         <div className="center-aling">
           <div
             className={`${
               props.showTopNavMenu
-                ? "navebar-manu-items"
-                : "responsive-navebar-manu-items"
-            }`}>
+                ? "footer-manu-items"
+                : "responsive-footer-manu-items"
+            }`}
+          >
             <div>
-              <p className="navebar-manu-item-text">Home</p>
+              <p className="footer-manu-item-text">Home</p>
             </div>
             <div>
-              <p className="navebar-manu-item-text">About us</p>
+              <p className="footer-manu-item-text">About us</p>
             </div>
             <div>
-              <p className="navebar-manu-item-text">Features</p>
+              <p className="footer-manu-item-text">Features</p>
             </div>
             <div>
-              <p className="navebar-manu-item-text">Download</p>
+              <p className="footer-manu-item-text">Download</p>
             </div>
           </div>
 
-          <p className="navebar-manu-item-text margin-negative">
+          <p className="footer-manu-item-text margin-negative">
             © 2020 Vellis. All Rights Reserved.
           </p>
         </div>

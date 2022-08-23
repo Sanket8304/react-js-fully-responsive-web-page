@@ -9,6 +9,10 @@ export const HomeWrapper = styled.div`
     margin-right: 15px;
   }
 
+  .gray-background {
+    background-color: #f5f5f5;
+  }
+
   .margin-top {
     margin-top: 51px;
     margin-bottom: 51px;
@@ -69,15 +73,13 @@ export const HomeWrapper = styled.div`
     width: 433px;
     height: 660px;
     position: absolute;
-    left: 1070px;
     top: 175px;
   }
 
   .container {
-    padding: 10px;
+    padding: 85px;
     background-color: #ffff;
     padding-inline: 375px;
-    width: auto;
   }
 
   .title-text-black {
@@ -88,7 +90,6 @@ export const HomeWrapper = styled.div`
     font-size: 48px;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 145px;
   }
 
   .text-black {
@@ -144,6 +145,10 @@ export const HomeWrapper = styled.div`
     padding-block: 5px;
     padding-inline: 15px;
     margin-top: 20px;
+  }
+
+  .card-container:hover {
+    background: #f47327;
   }
 
   .imag-10 {

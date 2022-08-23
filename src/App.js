@@ -21,7 +21,7 @@ function App() {
   };
 
   const responsive = {
-    showTopNavMenu: width > 1024,
+    showTopNavMenu: width > 1160,
   };
 
   return (

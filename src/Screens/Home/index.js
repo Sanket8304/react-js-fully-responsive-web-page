@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import "./responsive.css";
+import "./responsiveHome.css";
 
 import { HomeWrapper } from "./styles";
 
-const NavBar = (props) => {
+const Home = (props) => {
   const data = false;
 
   const [width, setWindowWidth] = useState(0);
@@ -25,31 +25,34 @@ const NavBar = (props) => {
       <div
         className={`${
           width > 1630 ? "main-container" : "responsive-main-container"
-        }`}>
+        }`}
+      >
         <div>
           <div
             className={`${
               width > 1630
                 ? "title-text-container"
                 : "responsive-title-text-container"
-            }`}>
+            }`}
+          >
             <p
               className={`${
                 width > 1630 ? "title-text" : "responsive-title-text"
-              }`}>{`Make ${"\n"}Your Own Plan\n& Enjoy it`}</p>
+              }`}
+            >{`Make ${"\n"}Your Own Plan\n& Enjoy it`}</p>
           </div>
 
           <p
-            className={`${
-              width > 1630 ? "text" : "responsive-text"
-            }`}>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry.`}</p>
+            className={`${width > 1630 ? "text" : "responsive-text"}`}
+          >{`Lorem Ipsum is simply dummy text of the printing and typesetting industry.`}</p>
 
           <div
             className={`${
               width > 1630
                 ? "horizontal-image-container"
                 : "responsive-horizontal-image-container"
-            }`}>
+            }`}
+          >
             <img
               className={`${
                 width > 1630 ? "store-imag" : "responsive-store-imag"
@@ -86,7 +89,8 @@ const NavBar = (props) => {
             width > 1650
               ? "about-sub-container"
               : "responsive-about-sub-container"
-          }`}>
+          }`}
+        >
           <img
             className={`${
               width > 1860 ? "squere-image" : "responsive-squere-image"
@@ -97,8 +101,9 @@ const NavBar = (props) => {
 
           <div
             className={`${
-              width > 1650 ? "text-container" : "responsive-text-container"
-            }`}>
+              width > 1230 ? "text-container" : "responsive-text-container"
+            }`}
+          >
             <p className="midiam-text">{`Contrary to popular belief`}</p>
 
             <p className="small-midim-text">{`It is a long established fact that a reader`}</p>
@@ -112,7 +117,11 @@ const NavBar = (props) => {
         </div>
       </div>
 
-      <div className={`${width > 1790 ? "container" : "responsive-container"}`}>
+      <div
+        className={`${
+          width > 1790 ? "container" : "responsive-container"
+        } gray-background`}
+      >
         <p className="title-text-black">{"Unique Features"}</p>
 
         <p className="text-black center">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.`}</p>
@@ -122,21 +131,26 @@ const NavBar = (props) => {
             width > 1650
               ? "about-sub-container"
               : "responsive-about-sub-container"
-          }`}>
+          }`}
+        >
           <img
-            className="mobile-image"
+            className={`${
+              width > 1650 ? "mobile-image" : "responsive-mobile-image"
+            }`}
             src={require("../../Assets/Images/image 6.png")}
             alt={require("../../Assets/Images/image 6.png")}
           />
 
           <div
             className={`${
-              width > 1650 ? "text-container" : "responsive-text-container"
-            }`}>
+              width > 1230 ? "text-container" : "responsive-text-container"
+            }`}
+          >
             <div
               className={`${
                 width > 1650 ? "card-container" : "responsive-card-container"
-              }`}>
+              }`}
+            >
               <p className="midiam-text">{`Innovative Scheduling`}</p>
 
               <p className="text-black">{`It is a long established fact that a reader will be distracted by the readable content of a page when looking.`}</p>
@@ -145,7 +159,8 @@ const NavBar = (props) => {
             <div
               className={`${
                 width > 1650 ? "card-container" : "responsive-card-container"
-              }`}>
+              }`}
+            >
               <p className="midiam-text">{`Event Collaboration`}</p>
 
               <p className="text-black">{`It is a long established fact that a reader will be distracted by the readable content of a page when looking.`}</p>
@@ -154,7 +169,8 @@ const NavBar = (props) => {
             <div
               className={`${
                 width > 1650 ? "card-container" : "responsive-card-container"
-              }`}>
+              }`}
+            >
               <p className="midiam-text">{`Communication`}</p>
 
               <p className="text-black">{`It is a long established fact that a reader will be distracted by the readable content of a page when looking.`}</p>
@@ -163,7 +179,8 @@ const NavBar = (props) => {
             <div
               className={`${
                 width > 1650 ? "card-container" : "responsive-card-container"
-              }`}>
+              }`}
+            >
               <p className="midiam-text">{`Social Networking`}</p>
 
               <p className="text-black">{`It is a long established fact that a reader will be distracted by the readable content of a page when looking.`}</p>
@@ -179,10 +196,11 @@ const NavBar = (props) => {
 
         <div
           className={`${
-            width > 1630
+            width > 530
               ? "horizontal-image-container"
               : "responsive-horizontal-image-container"
-          }`}>
+          }`}
+        >
           <img
             className={`${
               width > 1630 ? "store-imag" : "responsive-store-imag"
@@ -204,29 +222,40 @@ const NavBar = (props) => {
             width > 1230
               ? "horizontal-image-container"
               : "responsive-horizontal-image-container"
-          } margin-top`}>
+          } margin-top`}
+        >
           <img
-            className="imag-10 margin-left"
+            className={`${
+              width > 1230 ? "imag-10" : "responsive-imag-10"
+            } margin-left`}
             src={require("../../Assets/Images/Clice-web/image 10.png")}
             alt={require("../../Assets/Images/Clice-web/image 10.png")}
           />
           <img
-            className="imag-8 margin-left"
+            className={`${
+              width > 1230 ? "imag-8" : "responsive-imag-8"
+            } margin-left`}
             src={require("../../Assets/Images/Clice-web/image 8.png")}
             alt={require("../../Assets/Images/Clice-web/image 8.png")}
           />
           <img
-            className="imag-6 margin-left"
+            className={`${
+              width > 1230 ? "imag-6" : "responsive-imag-6"
+            } margin-left`}
             src={require("../../Assets/Images/Clice-web/image 6.png")}
             alt={require("../../Assets/Images/Clice-web/image 6.png")}
           />
           <img
-            className="imag-8 margin-left"
+            className={`${
+              width > 1230 ? "imag-8" : "responsive-imag-8"
+            } margin-left`}
             src={require("../../Assets/Images/Clice-web/image 7.png")}
             alt={require("../../Assets/Images/Clice-web/image 7.png")}
           />
           <img
-            className="imag-10"
+            className={`${
+              width > 1230 ? "imag-10" : "responsive-imag-10"
+            } margin-left`}
             src={require("../../Assets/Images/Clice-web/image 9.png")}
             alt={require("../../Assets/Images/Clice-web/image 9.png")}
           />
@@ -236,4 +265,4 @@ const NavBar = (props) => {
   );
 };
 
-export default NavBar;
+export default Home;

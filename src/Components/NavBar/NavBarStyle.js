@@ -6,7 +6,7 @@ export const NavBarWrapper = styled.div`
     background-color: #f47327;
     height: 50px;
     // border: ${(props) => (props.data ? "2px solid" : null)};
-    padding-inline: 375px;
+    padding-inline: 275px;
     display: flex;
     width: auto;
     justify-content: space-between;

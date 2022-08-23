@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./responsive.css";
+import "./responsiveNavbar.css";
 
 import { NavBarWrapper } from "./NavBarStyle";
 
@@ -14,13 +14,15 @@ const NavBar = (props) => {
           props.showTopNavMenu
             ? "main-container"
             : "responsive-navbar-main-container"
-        }`}>
+        }`}
+      >
         <div
           className={`${
             props.showTopNavMenu
               ? "navbar-title-container"
               : "responsive-navbar-title-container"
-          }`}>
+          }`}
+        >
           <img
             className="web-logo"
             src={require("../../Assets/Images/logo.png")}
@@ -34,7 +36,8 @@ const NavBar = (props) => {
             props.showTopNavMenu
               ? "navebar-manu-items"
               : "responsive-navebar-manu-items"
-          }`}>
+          }`}
+        >
           <div>
             <p className="navebar-manu-item-text">Home</p>
           </div>
